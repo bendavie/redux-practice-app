@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import { fetchUser } from '../actions'
 
 class UserHeader extends React.Component {
-    componentDidiMount() {
+    componentDidMount() {
         this.props.fetchUser(this.props.userId)
     }
 
